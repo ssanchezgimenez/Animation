@@ -1,0 +1,15 @@
+.runner {
+  width: 104.25px;
+  height: 120px;
+  background-image: url("animation.png");
+  animation: run 2s steps(8) infinite,slide 10s steps(1000) infinite;
+
+}
+
+@keyframes run {
+  100% {background-position: -834px;}
+}
+
+@keyframes slide {
+  100% { margin-left: 600.25px;}
+}
